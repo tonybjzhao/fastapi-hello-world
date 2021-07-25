@@ -13,11 +13,8 @@ sudo docker build -t fastapi-image .
 
 ## Starting the docker container
 ```
-sudo docker start fastapi-container
+docker run -p 80:80 -it fastapi-image
 ```
-
-### Accessing the app
-#### Docs
 
 ## Running the app locally
 ### Requirements
